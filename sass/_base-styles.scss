@@ -1,0 +1,52 @@
+body {
+  background-color:#4F0823;
+  color: var(--text);
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+header,
+main,
+footer {
+  max-width: 80rem;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--white);
+  font-family: sans-serif;
+}
+
+button {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-size: 1.2rem;
+  background: var(--orange);
+  color: var(--black);
+  border: none;
+  box-shadow: none;
+  margin: 0.5rem;
+  font-weight: bold;
+  &[disabled] {
+    background: var(--text);
+  }
+  &:hover,
+  &:focus {
+    background-color: var(--light-red);
+  }
+}
+
+a {
+  color: var(--light-red);
+  &:hover,
+  &:focus {
+    color: var(--medium-red);
+  }
+}
