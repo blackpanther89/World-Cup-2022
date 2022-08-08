@@ -6,7 +6,7 @@ import Rules from './Rules';
 export default function WCDraw2022() {
   return (
     <div className="wcdraw2022">
-            <Rules />
+      <Rules />
       <TeamsList teams={teams} />
       <GroupList teams={teams} />
 
