@@ -1,6 +1,6 @@
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">World Cup Qatar 2022 Draw Simulator ⚽</h3>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">By Débora Teixeira and Pavle Balsic</h3>
 <p align="left">
 </p>
 
